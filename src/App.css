@@ -13,28 +13,43 @@
   display:flex;
   background-color: blue;
   height: 30px;
+  transition: margin-right 4s;
 }
 
 #Areyou {
   flex: 80%;
   background-color: blue;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #yes {
   background-color: blue;
   color:white;
   flex:10%;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
 }
 
 #no {
   background-color:blue;
   color: white;
   flex:10%;
+  font-style:italic;
+  font-family: 'Roboto', sans-serif;
+}
+
+#mark {
+  margin-top:20px;
+  transition-delay: 5s;
 }
 
 .originalbg {
-  margin-top:150px;
+  margin-top:60px;
   text-align: center;
 }
 
@@ -44,9 +59,75 @@
   font-style: italic;
 }
 
+#motibox {
+  display:flex;
+}
+
 #quote {
-  color: darkgray;
-  font-size: 20px;
-  height:50px;
   background: transparent;
+  color: transparent;
+  height:90px;
+  font-size: 16px;
+  flex:1;
+  margin-right: 30px;
+  border-color:orange;
+  border-width: 2px;
+}
+
+#quote.activated {
+  color: orange;
+  font-size: 16px;
+  height:90px;
+  background: transparent;
+  font-family: 'roboto', sans-serif;
+  font-style: italic;
+  border: orange;
+  flex:1;
+  margin-right: 30px;
+}
+
+#quote2 {
+  background: transparent;
+  color: transparent;
+  height:90px;
+  font-size: 16px;
+  flex:1;
+  margin-right: 30px;
+  border-color:goldenrod;
+  border-width: 2px;
+}
+
+#quote2.activated {
+  color:goldenrod;
+  font-size: 16px;
+  height:90px;
+  background: transparent;
+  font-family: 'roboto', sans-serif;
+  font-style: italic;
+  border: goldenrod;
+  flex:1;
+  margin-right: 30px;
+}
+
+#quote3 {
+  background: transparent;
+  color: transparent;
+  height:90px;
+  font-size: 16px;
+  flex:1;
+  margin-right: 30px;
+  border-color: palevioletred;
+  border-width: 2px;
+}
+
+#quote3.activated {
+  color:palevioletred;
+  font-size: 16px;
+  height:90px;
+  background: transparent;
+  font-family: 'roboto', sans-serif;
+  font-style: italic;
+  border: palevioletred;
+  flex:1;
+  margin-right: 30px;
 }
