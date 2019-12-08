@@ -32,8 +32,21 @@
   font-style: italic;
   font-family: 'Roboto', sans-serif;
   margin:.5em;
-  font-size:1em;
+  font-size:1.2em;
   padding: 1em;
+  border-radius: 0.4em;
+}
+
+.yesno:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(0.4em);
+}
+
+.yesno:hover{
+  background:pink;
+  border:plum;
+  color:grey;
 }
 
 #mark {

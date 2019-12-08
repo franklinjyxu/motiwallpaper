@@ -42,7 +42,7 @@ function Changebg(props) {
         <h1>Are you feeling a bit blue today?</h1>
         <div className="twobuttons">
           <button id="yes" className="yesno" onClick={handleClick}>Yes</button>
-          <button className="yesno">No</button>
+          <button id="no" className="yesno">No</button>
        </div>
        </div>
   
