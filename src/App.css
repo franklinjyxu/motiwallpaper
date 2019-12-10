@@ -3,27 +3,153 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.initialpage {
-  background-image: url(http://bit.ly/33MKo7L);
+.base{
   background-size: cover;
-  height: 100vh;
   position: absolute;
+  height: 100vh;
   width:100vw;
 }
 
+
+.initialpage {
+  background-image: url(http://bit.ly/33MKo7L);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .initialpage{
+    background-image: url(http://bit.ly/347Kc3o);
+  }
+}
+
+.refresh {
+  background-image: url(http://bit.ly/2ruQ5u8);
+}
+
+@media only screen and (max-width: 600px) {
+  .refresh{
+    background-image: url(http://bit.ly/34c7fu0);
+  }
+}
+
+.refresh1 {
+  background-image: url(http://bit.ly/2LBMmC0);
+}
+
+@media only screen and (max-width: 600px) {
+  .refresh1{
+    background-image: url(http://bit.ly/356SqKn);
+  }
+}
+
+.refresh2 {
+  background-image: url(http://bit.ly/2LAn9aM);
+}
+
+.r3 {
+  background-image: url(http://bit.ly/38jLtYh);
+}
+
+.r4 {
+  background-image: url(http://bit.ly/2rvG3sB);
+}
+
+@media only screen and (max-width: 600px) {
+  .r4{
+    background-image: url(http://bit.ly/352YCTA);
+  }
+}
+
+.r5 {
+  background-image: url(http://bit.ly/38k6ke6);
+}
+
+@media only screen and (max-width: 600px) {
+  .r5{
+    background-image: url(http://bit.ly/2YztyIT);
+  }
+}
+
+.r6 {
+  background-image: url(http://bit.ly/38nFMZy);
+}
+
+@media only screen and (max-width: 600px) {
+  .r6{
+    background-image: url(http://bit.ly/2PypGDT);
+  }
+}
+
+.r7 {
+  background-image: url(http://bit.ly/346Qj7U);
+}
+
+.r8 {
+  background-image: url(http://bit.ly/2RvqT1j);
+}
+
+@media only screen and (max-width: 600px) {
+  .r8{
+    background-image: url(http://bit.ly/2YzAOEu);
+  }
+}
+
+.r9 {
+  background-image: url(http://bit.ly/2RBlQMG);
+}
+
+.r10 {
+  background-image: url(http://bit.ly/2LRPQjZ);
+}
+
+@media only screen and (max-width: 600px) {
+  .r10{
+    background-image: url(http://bit.ly/2RE4AGv);
+  }
+}
+
 .bluebanner {
-  display:flex;
-  flex-direction:column;
   background-color: blue;
   transition: margin-right 4s;
   color: antiquewhite;
   font-style: italic;
   font-family: 'Roboto', sans-serif;
-  font-size: .5em;
+  font-size: .51em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .bluebanner {
+    font-size: .9em;
+  }
+}
+
+.headerflex{
+  display:flex;
+  flex-direction:column;
+}
+
+@media only screen and (max-width: 600px) {
+.bluebanner{
+  font-size:.35em;
+}
 }
 
 .twobuttons {
   margin-left:1em;
+}
+
+#what {
+  width:25em;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  margin:.5em;
+  font-size:1.8em;
+  padding: 0.6em;
+  border-radius: 0.4em;
+  background-color: pink;
+  border:none;
+  color:whitesmoke;
 }
 
 .yesno {
@@ -49,91 +175,185 @@
   color:grey;
 }
 
+.change{
+  margin-top:1em;
+  text-align: center;
+  position: relative;
+}
+
 #mark {
-  margin-top:20px;
-  transition-delay: 5s;
+  margin-top:2em;
+  opacity:0.7;
+  position:absolute;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+#mark:hover{
+  opacity:1;
+}
+
+@media only screen and (max-width: 600px) {
+  #mark {
+    height:3.5em;
+  }
+}
+
+
+#refresh {
+  position:absolute;
+  right: 1.2em;
+  opacity:1;
+  margin-right:1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  #refresh {
+    height:2.5em;
+    position:absolute;
+    right: 0.2em;
+    margin-right:0.7em;
+  }
+}
+
+#refresh:hover{
+  opacity:0.6;
+}
+
+input{
+  display: none;
 }
 
 .originalbg {
-  margin-top:60px;
+  margin-top:8em;
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .originalbg{
+    margin-top:7em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .googlelogo{
+    width:10em;
+  }
+}
+
 .searchbar {
-  margin-left:120px;
+  text-align:center;
+  margin-left:6em;
   font-family: 'roboto', sans-serif;
   font-style: italic;
 }
 
+@media only screen and (max-width: 600px) {
+  .searchbar{
+    margin-left:3.9em;
+    width:18em;
+  }
+}
+
 #motibox {
   display:flex;
+  flex-direction: row;
 }
+
+@media only screen and (max-width: 600px) {
+  #motibox{
+    flex-direction:column;
+    margin-top:0em;
+  }
+  }
 
 #quote {
   background: transparent;
   color: transparent;
-  height:90px;
-  font-size: 16px;
+  height:7em;
+  width:18em;
+  font-size: 1em;
   flex:1;
-  margin-right: 30px;
+  margin-right: 2em;
   border-color:orange;
-  border-width: 2px;
+  border-width: 0.3em;
+  text-align: center;
 }
 
 #quote.activated {
-  color: orange;
-  font-size: 16px;
-  height:90px;
+  color:white;
+  text-shadow: 0.1em 0.1em 0.2em pink;
+  height:7em;
+  width:18em;
+  font-size: 1em;
   background: transparent;
   font-family: 'roboto', sans-serif;
   font-style: italic;
   border: orange;
   flex:1;
-  margin-right: 30px;
+  margin-right: 2em;
+  text-shadow: 2em;
 }
 
 #quote2 {
   background: transparent;
   color: transparent;
-  height:90px;
-  font-size: 16px;
+  height:7em;
+  width:18em;
+  font-size: 1em;
   flex:1;
-  margin-right: 30px;
+  margin-right: 2em;
   border-color:goldenrod;
-  border-width: 2px;
+  border-width: 0.3em;
 }
 
 #quote2.activated {
-  color:goldenrod;
-  font-size: 16px;
-  height:90px;
+  color:white;
+  text-shadow: 0.1em 0.1em 0.2em orange;
+  height:7em;
+  width:18em;
+  font-size: 1em;
   background: transparent;
   font-family: 'roboto', sans-serif;
   font-style: italic;
   border: goldenrod;
   flex:1;
-  margin-right: 30px;
+  margin-right: 2em;
 }
 
 #quote3 {
   background: transparent;
   color: transparent;
-  height:90px;
-  font-size: 16px;
+  height:7em;
+  width:18em;
+  font-size: 1em;
   flex:1;
-  margin-right: 30px;
+  margin-right: 2em;
   border-color: palevioletred;
-  border-width: 2px;
+  border-width: 0.3em;
 }
 
 #quote3.activated {
-  color:palevioletred;
-  font-size: 16px;
-  height:90px;
+  color:white;
+  text-shadow: 0.1em 0.1em 0.2em gold;
+  height:7em;
+  width:18em;
+  font-size: 1em;
   background: transparent;
   font-family: 'roboto', sans-serif;
   font-style: italic;
-  border: palevioletred;
+  border: rgb(121, 75, 90);
   flex:1;
-  margin-right: 30px;
+  margin-right: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  #quote, #quote2, #quote3, #quote.activated, #quote2.activated, #quote3.activated{
+    height:6em;
+    width: 24em;
+    font-size:1em;
+    margin:0.3em;
+    padding:0.2em;
+  }
 }
