@@ -283,7 +283,7 @@ input{
 
 #quote.activated {
   color:white;
-  text-shadow: 0.1em 0.1em 0.2em pink;
+  text-shadow: 0.4em 0.4em 0.8em pink;
   height:7em;
   width:18em;
   font-size: 1em;
@@ -310,7 +310,7 @@ input{
 
 #quote2.activated {
   color:white;
-  text-shadow: 0.1em 0.1em 0.2em orange;
+  text-shadow: 0.4em 0.4em 0.8em orange;
   height:7em;
   width:18em;
   font-size: 1em;
@@ -336,7 +336,7 @@ input{
 
 #quote3.activated {
   color:white;
-  text-shadow: 0.1em 0.1em 0.2em gold;
+  text-shadow: 0.4em 0.4em 0.8em gold;
   height:7em;
   width:18em;
   font-size: 1em;
